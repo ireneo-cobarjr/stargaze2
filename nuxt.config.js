@@ -16,7 +16,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {rel: "stylesheet", href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"}
+      {rel: "stylesheet", href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"},
+      {href:"https://fonts.googleapis.com/css?family=Montserrat+Alternates", rel:"stylesheet"}
 
     ],
     script: [
@@ -35,6 +36,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/fonts.scss'
   ],
 
   /*
